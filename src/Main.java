@@ -7,33 +7,33 @@ public class Main {
     }
 
     public static void task1() {
-        var  firstNeme= "Ivanov";
-        var middleNeme = "Ivan";
-        var lastNeme = "Ivanovich";
-        var fullNeme = firstNeme + " " + middleNeme + " " + lastNeme;
-        System.out.println("Ф. И. О. сотрудника —" + fullNeme);
+        var  firstName= "Ivanov";
+        var middleName = "Ivan";
+        var lastName = "Ivanovich";
+        var fullName = firstName + " " + middleName + " " + lastName;
+        System.out.println("Ф. И. О. сотрудника —" + fullName);
 
 
     }
 
     public static void task2() {
-        var firstNeme = "Ivanov";
-        var  middleNeme= "Ivan";
-        var lastNeme = "Ivanovich";
-        var fullNeme = firstNeme + " " + middleNeme + " " + lastNeme;
+        var firstName = "Ivanov";
+        var  middleName= "Ivan";
+        var lastName = "Ivanovich";
+        var fullName = firstName + " " + middleName + " " + lastName;
 
-        fullNeme = fullNeme.toUpperCase();
-        System.out.println(fullNeme);
+        fullName = fullName.toUpperCase();
+        System.out.println(fullName);
     }
 
     public static void task3() {
-        var middleNeme = "Иванов";
-        var firstNeme = "Семён";
-        var lastNeme = "Семёнович";
-        var fullNeme = firstNeme + " " + middleNeme + " " + lastNeme;
+        var middleName = "Иванов";
+        var firstName = "Семён";
+        var lastName = "Семёнович";
+        var fullName = firstName + " " + middleName + " " + lastName;
 
 
-        fullNeme = fullNeme.replace(  "ё", "е");
-        System.out.println(fullNeme);
+        fullName = fullName.replace(  "ё", "е");
+        System.out.println(fullName);
     }
 }
